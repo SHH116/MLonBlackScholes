@@ -1,4 +1,4 @@
-# Applying Machine Learning to price Vanilla Options:
+# Pricing Vanilla Options via Machine Learning 
 
 Traditionally, vanilla European Options would be priccd via analytical Black-Scholes, a mathematically closed form formula.
 In this project, I apply various machine learning regression kernels to learn the Black-Scholes behaviour.
@@ -7,6 +7,15 @@ The result is a highly accurate (r-squared) model, that can price options indepe
 In addition, I stress-test the new model under various scenarios to measure its aggregate behaviour under various volatility and underlying spot price regimes; To ensure that forward tests are as reliable as the backtests.
 
 --------
+## Libraries
+
+
+
+
+
+
+
+-----------
 ## Black-Scholes primary assumptions include:
 <dl>
   <dt>Put-Call parity holds:</dt>
