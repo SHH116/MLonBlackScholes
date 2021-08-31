@@ -1,6 +1,15 @@
 # Project
-ML on Options Pricing to replace Analytical Black_scholes
+ML on Vanilla Options Pricing to replace Analytical Black-Scholes
 
 --------
-## Black_Scholes primary assumptions include:
-Put-Call parity
+## Black-Scholes primary assumptions include:
+Put-Call parity holds
+No Arbitrage
+Random Walk 
+Constant Variance
+European Options
+No Dividednds involved
+
+
+
+
