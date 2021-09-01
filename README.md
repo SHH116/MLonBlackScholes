@@ -32,7 +32,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
 </dl>
   
 --------
-## Project steps:
+## Project steps
 1-SPX index as an underlying proxy for global markets.
   
 2-VIX index as a proxy for ATM put and call implied volatility.
@@ -51,6 +51,20 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
 9-If test predictions degrade vs the train predictions, choose another relevant kernel.
   
+  
+  
+------
+ ## Theory Vs Reality
+ 
+ * In reality we do not have the options Implied Volatilites represented by VIX in this project, so the practitioners must reverse engineer the options market price in conjunction with the underlying SPX value in order to extract the VIX. 
+  
+ * The model is trained for varying spot and volatiltiy regimes, but not for varying interest rates
+  
+ * The model prices the at the money put and call options only.
+  
+ * The VIX is used as volatility proxy for a specific strike (the ATM), whereas in reality it is an aggregate compution of the upper/lower strikes of 30-day t0 expiry and the neighbouring tenors. 
+  
+-----
   
 
   
