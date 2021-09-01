@@ -9,16 +9,11 @@ In addition, I stress-test the new model under various scenarios to measure its 
 --------
 ## Libraries
 
-..* !pip install pandas
-
-!pip install np
-
-!pip install pandas_profiling
-
-!pip install seaborn as sns
-
-!pip install qgrid
-
+* !pip install pandas
+* !pip install numpy
+* !pip install pandas_profiling
+* !pip install seaborn 
+* !pip install qgrid
 
 -----------
 ## Black-Scholes primary assumptions include:
