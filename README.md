@@ -37,7 +37,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
 2-VIX index as a proxy for ATM put and call implied volatility.
   
-3-Compute Analytical BS prices (deterministically) by using SPX and VIX prices as function arguments.
+3-Compute Analytical BS (at the money call/put prices) deterministically by using SPX and VIX prices as function arguments.
   
 4-Fit various relevant kernels of choice on SPX and VIX as independent variables, and BS output as response varaible. 
   
