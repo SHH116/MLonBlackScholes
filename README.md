@@ -56,15 +56,17 @@ In addition, I stress-test the new model under various scenarios to measure its 
 ------
  ## Theory Vs Reality
  
- * In reality we do not have the options Implied Volatilites represented by VIX in this project, so the practitioners must reverse engineer the options market price in conjunction with the underlying SPX value in order to extract the VIX. 
+ * In reality we should not use the options Implied Volatilites represented by VIX in this project, so the practitioners must reverse engineer the options market price in conjunction with the underlying SPX value in order to extract the local volatility associated to each strike. 
   
- * The model is trained for varying spot and volatiltiy regimes, but not for varying interest rates
+ * The model is trained for varying spot and volatiltiy regimes, but not for varying interest rates.
   
  * The model prices the at the money put and call options only.
   
- * The VIX is used as volatility proxy for a specific strike (the ATM), whereas in reality it is an aggregate compution of the upper/lower strikes of 30-day t0 expiry and the neighbouring tenors. 
+ * The VIX is used as volatility proxy for a specific strike (the ATM), whereas in reality it is an aggregate compution of the upper/lower strikes of 30-day to expiry and its neighbouring tenors. 
   
 -----
+ ## Challanges
+ 
   
 
   
