@@ -16,7 +16,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
 * !pip install qgrid
 
 -----------
-## Black-Scholes primary assumptions include:
+## Black-Scholes assumptions
 <dl>
   <dt>Put-Call parity holds:</dt>
   <dd>https://corporatefinanceinstitute.com/resources/knowledge/finance/put-call-parity/</dd>
@@ -33,10 +33,25 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
 --------
 ## Project steps:
-1-SPX 500 as an underlying proxy for global markets
-2-VIX index as a proxy for ATM put and call implied volatility
-3-Compute Analytical BS prices
-4-Use price,implied volatility 
+1-SPX index as an underlying proxy for global markets.
+  
+2-VIX index as a proxy for ATM put and call implied volatility.
+  
+3-Compute Analytical BS prices (deterministically) by using SPX and VIX prices as function arguments.
+  
+4-Fit various relevant kernels of choice on SPX and VIX as independent variables, and BS output as response varaible. 
+  
+5-On the original time-series compare the performance of the kernel vs the analytical BS.
+  
+6-Identify the kernel that produces the highest r-squared (the best learner).
+  
+7-Stress-test the kernel of choice on a) monte-carlo simulated data b)randomized historical data, to measure the r-squared again.
+  
+8-If test predictions do not degrade vs the train predictions, the model is reliable.
+  
+9-If not choose another relevant kernel.
+  
+  
 
   
  
