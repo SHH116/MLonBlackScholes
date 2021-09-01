@@ -9,10 +9,15 @@ In addition, I stress-test the new model under various scenarios to measure its 
 --------
 ## Libraries
 
+..* !pip install pandas
 
+!pip install np
 
+!pip install pandas_profiling
 
+!pip install seaborn as sns
 
+!pip install qgrid
 
 
 -----------
