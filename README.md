@@ -49,7 +49,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
 8-If test predictions do not degrade vs the train predictions, the model is reliable.
   
-9-If not choose another relevant kernel.
+9-If test predictions degrade vs the train predictions, choose another relevant kernel.
   
   
 
