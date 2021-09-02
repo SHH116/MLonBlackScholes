@@ -74,6 +74,9 @@ In addition, I stress-test the new model under various scenarios to measure its 
   <dt>Data Sources:</dt>
   <dd>https://ca.finance.yahoo.com/quote/SPY/history?p=SPY</dd>
   <dd>https://ca.finance.yahoo.com/quote/%5EVIX/history?p=%5EVIX</dd>
+  <dd>https://stooq.com/db/h/</dd>
+  <dd>https://www.barchart.com/ondemand/api/getHistory?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuwPQiDLvub5yVYGvvfyW4AyeWpHGH9lBK1XylfM3DSyAygHiji6ccaAtpOEALw_wcB</dd>
+  
   
   
   
