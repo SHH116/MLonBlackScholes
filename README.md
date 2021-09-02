@@ -63,7 +63,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
  * The model uses VIX as a proxy to price the ATM strike whereas VIX is an aggregate compution of the upper/lower strikes of 30-day to expiry and its neighbouring terms. 
   
- * The VIX has an embedded skew, therefore, the model slightly overestiamtes the ATM call and put price. This is fine however, since the core business idea is to insure the bank portfolio and reduce VaR exposure. 
+ * The VIX has an embedded skew, therefore, the model slightly overestiamtes the ATM call and put price. This is fine however, since the core business idea is to insure the bank portfolio and reduce VaR exposure, and over protection is better than under protection.
   
 
  ## Data
