@@ -81,11 +81,11 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
  ## Future Version
   
-1-Feed the entire volatility surface values instead of a single VIX value.
+  * Feed the entire volatility surface values instead of a single VIX value.
   
-2-Perform 5-day forward, 1-month forward forecasts as well.
+  * Perform 5-day forward, 1-month forward forecasts as well.
   
-3-Apply the model on underlyings other than SPX.
+  * Apply the model on underlyings other than SPX.
   
   
   
