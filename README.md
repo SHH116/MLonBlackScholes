@@ -15,7 +15,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
 * !pip install seaborn 
 * !pip install qgrid
 
------------
+
 ## Black-Scholes assumptions
 <dl>
   <dt>Put-Call parity holds:</dt>
@@ -31,7 +31,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   <dt>No Dividends are paid
 </dl>
   
---------
+
 ## Project steps
 1-SPX index as an underlying proxy for global markets.
   
@@ -53,7 +53,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
   
   
-------
+
  ## Assumptions and Constraints
  
 
@@ -65,7 +65,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
  * The VIX has an embedded skew, therefore, the model slightly overestiamtes the ATM call and put price. This is fine however, since the core business idea is to insure the bank portfolio and reduce VaR exposure. 
   
------
+
  ## Data
   
   *  2-year SPY (as SPX proxy) and VIX hostorical data can be downloaded from the following sources. The first year to be used for model training and the second year to be used for model forward testing
