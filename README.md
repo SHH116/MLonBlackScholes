@@ -68,7 +68,14 @@ In addition, I stress-test the new model under various scenarios to measure its 
 
  ## Data
   
-  *  2-year SPY (as SPX proxy) and VIX hostorical data can be downloaded from the following sources. The first year to be used for model training and the second year to be used for model forward testing
+2-year SPY (as SPX proxy) and VIX hostorical data can be downloaded from the following sources. The first year to be used for model training and the second year to be used for model forward testing.
+  
+  
+  <dt>Data Sources:</dt>
+  <dd>https://ca.finance.yahoo.com/quote/SPY/history?p=SPY</dd>
+  <dd>https://ca.finance.yahoo.com/quote/%5EVIX/history?p=%5EVIX</dd>
+  
+  
   
  
   
