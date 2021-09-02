@@ -79,6 +79,15 @@ In addition, I stress-test the new model under various scenarios to measure its 
   <dd>[5] https://www.quandl.com/search?query=stocks</dd>
   
   
+ ## Future Version
+  
+1-Feed the entire volatility surface values instead of a single VIX value.
+2-Perform 5-day forward, 1-month forward forecast as well.
+3-Apply the model on underlyings other than SPX.
+  
+  
+  
+  
   
   
   
