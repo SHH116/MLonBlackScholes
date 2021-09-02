@@ -54,18 +54,22 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
   
 ------
- ## Theory Vs Reality
+ ## Assumptions and Constraints
  
- * In reality we should not use the options Implied Volatilites represented by VIX in this project, so the practitioners must reverse engineer the options market price in conjunction with the underlying SPX value in order to extract the local volatility associated to each strike. 
-  
+
  * The model is trained for varying spot and volatiltiy regimes, but not for varying interest rates.
   
- * The model prices the at the money put and call options only.
+ * The model prices the at the money put and call options only expiring at the constant term of 30 days.
   
- * The VIX is used as volatility proxy for a specific strike (the ATM), whereas in reality it is an aggregate compution of the upper/lower strikes of 30-day to expiry and its neighbouring tenors. 
+ * The model uses VIX as a proxy to price the ATM strike whereas VIX is an aggregate compution of the upper/lower strikes of 30-day to expiry and its neighbouring terms. 
+  
+ * The VIX has an embedded skew, therefore, the model slightly overestiamtes the ATM call and put price. This is fine however, since the core business idea is to insure the bank portfolio and reduce VaR exposure. 
   
 -----
- ## Challanges
+ ## Data
+  
+  *  2-year SPY (as SPX proxy) and VIX hostorical data can be downloaded from the following sources. The first year to be used for model training and the second year to be used for model forward testing
+  
  
   
 
