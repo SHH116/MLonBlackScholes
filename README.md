@@ -86,7 +86,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
  ## Future Version
   
-* Feed the entire volatility surface values instead of a single VIX value.
+* Feed the entire volatility surface values instead of a single VIX value, in order to extract prices per each strike.
   
 * Perform 5-day forward, 1-month forward forecasts as well.
   
