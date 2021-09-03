@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/56700326/132066467-13ee88da-a6ba-4658-a568-056fff846e35.png)
+
+
 # Pricing European Vanilla via various Gaussian Machine Learning Kernels 
 
 Traditionally, vanilla European Options would be priccd via analytical Black-Scholes, a mathematically closed form formula.
@@ -86,6 +89,24 @@ In addition, I stress-test the new model under various scenarios to measure its 
 * Perform 5-day forward, 1-month forward forecasts as well.
   
 * Apply the model on underlyings other than SPX.
+  
+  
+## Acknowledgments
+  
+Dmitry Vyushin of RBC for his supervision
+  
+Sasha Hajy Hassani as the developer
+  
+## Further Readings
+  
+  Gaussian Process:
+  <dd>[1]https://fhr.nuc.berkeley.edu/fhr-research-areas/pyrk/uncertainty-quantification/</dd>
+  <dd>[2]https://analyticsindiamag.com/guide-to-gpytorch-a-python-library-for-gaussian-process-models/</dd>
+  <dd>[3]https://scikit-learn.org/stable/modules/gaussian_process.html</dd>
+  
+  
+  
+  
   
   
   
