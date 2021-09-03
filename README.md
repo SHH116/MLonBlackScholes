@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/56700326/132066467-13ee88da-a6ba-4658-a568-056fff846e35.png)
+![image](https://user-images.githubusercontent.com/56700326/132067100-90a80137-ff9d-41de-8a55-cabc2d2c94b9.png)
+
 
 
 # Pricing European Vanilla via various Gaussian Machine Learning Kernels 
@@ -17,6 +18,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
 * !pip install pandas_profiling
 * !pip install seaborn 
 * !pip install qgrid
+* !pip install scikit-learn
 
 
 ## Black-Scholes assumptions
