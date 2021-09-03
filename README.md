@@ -1,4 +1,4 @@
-# Pricing Eueropean Vanilla via Various Gaussian Machine Learning Kernels 
+# Pricing European Vanilla via various Gaussian Machine Learning Kernels 
 
 Traditionally, vanilla European Options would be priccd via analytical Black-Scholes, a mathematically closed form formula.
 In this project, I apply various machine learning regression kernels to learn the Black-Scholes behaviour.
