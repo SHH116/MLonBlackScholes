@@ -56,6 +56,11 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
 9-If test predictions degrade vs the train predictions, choose another relevant kernel.
   
+
+## Regardiing Gaussian Process Regression (GCP) Kernels
+The model inputs include VIX as a mean-reverting feature and the underlying SPX price as an unbounded random-walk feature. However, most of the GCP kernels co-enforce a sinosidal property in conjunctions with a drift. Therefore, the GCP kernels cannot replicate the market regimes with very dominant trends, unless they have had exposure to similar-magnitude drifts in training. Therefore, the quality of the model's forward predictions would highly depend on the similarity of the current regime's drift to that of the training data. Basically, drift dominant regimes would degrade the model's R-squared. Therefore, I have used additive and multiplicative proeprties of the independent variables to come up with stronger and simpler alternatives. 
+  
+  
   
   
 
@@ -95,7 +100,7 @@ In addition, I stress-test the new model under various scenarios to measure its 
   
 ## Acknowledgments
   
-Dmitry Vyushin of RBC for his supervision
+Thanking Dmitry Vyushin of RBC for his supervision and guidance
   
 Sasha Hajy Hassani as the developer
   
